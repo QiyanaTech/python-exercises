@@ -1,12 +1,11 @@
-def calculadora(x: float,y:float):
-    print("A soma destes números é igual a:",x+y)
-    print("A subtração entre esses números é igual a:",x-y)
-    print("O produto destes números é igual a:",x*y)
-    print("A divisão entre estes números é igual a:",x/y)
-    print("A divisão inteira entre estes números é igual a:",x//y)
+def calculator(x: float,y:float):
+    print("The sum of these numbers is: ",x+y)
+    print("The substration of these numbers is: ",x-y)
+    print("The product of these numbers is: ",x*y)
+    print("The division between these numbers is: ",x/y)
+    print("The integer division between these number is: ",x//y)
 
+x = int(input("Enter the first number: "))
+y = int(input("Enter the second number:  "))
 
-x = int(input("Digite um número: "))
-y = int(input("Digite outro número: "))
-
-calculadora(x,y)
+calculator(x,y)

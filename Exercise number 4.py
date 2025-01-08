@@ -1,21 +1,21 @@
 def calculator(operation, x, y):
     match operation:
         case "+":
-            print("A soma entre eles é:",x+y)
+            print("The sum between then is: ",x+y)
         case "-":
-            print("A subtração entre eles é:",x-y)
+            print("The subtraction between then is :",x-y)
         case "*":
-            print("A multiplicação entre eles é:",x*y)
+            print("The multiplication between then is:",x*y)
         case "/":
             if(y != 0):
-                print("A divisão entre eles é:",x/y)
+                print("The division between then is:",x/y)
             else:
-                print("Erro: Não é possível fazer uma divisão por 0.")
+                print("Error: Can't do a division by 0.")
         case _:
-            print("Operação inválida.")
+            print("Invalid operation.")
 
-a = input("Digite o símbolo da operação que deseja realizar: +, -, * ou / ")
-b = float(input("Digite o primeiro número:"))
-c = float(input("Digite o segundo número:"))
+a = input("Enter the symbol of operation you want to perform: +, -, * or / ")
+b = float(input("Enter the first number: "))
+c = float(input("Enter the second number: "))
 
 calculator(a,b,c)
